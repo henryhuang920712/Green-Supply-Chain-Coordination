@@ -8,7 +8,7 @@
 1. [Introduction](#introduction)
 2. [The Model](#the-model)
    - [Model Description](#model-Description)
-   - [Model Formulations](#model-Formulations)
+   - [Model Formulations and Solution](#model-formulations-and-solution)
      - [Centralised model](#centralised-model)
      - [Decentralised model](#centralised-model)
      - [Hybrid greening cost and revenue sharing contract](#hybrid-greening-cost-and-revenue-sharing-contract)
@@ -31,13 +31,97 @@ In the proposed model, various assumptions are taken into account. Some assumpti
 - **Symmetric Information Sharing:** For simplicity reasons it is considered that all the model parameters are known to both channel members, implying symmetric information sharing between them.
 - **Deterministic Demand Function:** The demand function is deterministic and assumed to follow a linear relationship with the selling price and the greenness level of the product.
 - **Static Pricing Scheme:** Due to the nature of the product and the business environment, a static pricing scheme is employed in the studied Supply Chain (SC). This suggests that the pricing strategy remains constant over the studied period.
-- The **notation** used in this tutorial is as follows:
 
 ## Model Description
 
-The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts.
+The **notation** used in this tutorial is as follows:<br>
+**1. Parameters**
 
-## Model Formulations
+<table>
+  <tr>
+    <td>Notation</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><em>c</em></td>
+    <td>Production cost of the manufacturer per unit</td>
+  </tr>
+  <tr>
+    <td><em>h</td>
+    <td>Greening cost coefficient</td>
+  </tr>
+  <tr>
+    <td><em>τ</td>
+    <td>Customer environmental awareness (CEA) level which is related to the willingness of consumers to buy the product with higher green quality even at a higher price</td>
+  </tr>
+  <tr>
+    <td><em>a</td>
+    <td>Basic market size</td>
+  </tr>
+  <tr>
+    <td><em>b</td>
+    <td>Price sensitivity of demand</td>
+  </tr>
+  <tr>
+    <td><em>w</td>
+    <td>The unit wholesale price</td>
+  </tr>
+  <tr>
+    <td>&#928<sub><em>sc</sub></td>
+    <td>Channel profit</td>
+  </tr>
+  <tr>
+    <td>&#928<sub><em>m</sub></td>
+    <td>Manufacturer’s profit</td>
+  </tr>
+  <tr>
+    <td>&#928<sub><em>r</sub></td>
+    <td>Retailer’s profit</td>
+  </tr>
+</table>
+
+**2. Decision variables**
+
+<table>
+  <tr>
+    <td>Notation</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><em>p</em></td>
+    <td>Selling price of the product (decision variable of the retailer)</td>
+  </tr>
+  <tr>
+    <td><em>e</em></td>
+    <td>The product green quality (decision variable of the manufacturer)</td>
+  </tr>
+</table>
+
+**3. Coordination model variables**
+
+<table>
+  <tr>
+    <td>Notation</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td><em>w<sub><em>r</sub></em></td>
+    <td>Selling price of the product (decision variable of the retailer)</td>
+  </tr>
+  <tr>
+    <td><em>&#966</em></td>
+    <td>Share of greening-cost allocated to the retailer
+(&#966 &#8712 [0, 1])</td>
+  </tr>
+  <tr>
+    <td>v</td>
+    <td> Share of revenue allocated to the retailer (v &#8712 [0, 1])</td>
+  </tr>
+</table>
+
+## Model Formulations and solution
+
+The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts.
 
 ### Centralised model
 
