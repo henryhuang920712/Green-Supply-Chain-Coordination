@@ -128,49 +128,49 @@ The **Demand Function** is D = _a − bp + τe_
 ### (1) Centralised model
 
 $$
-\begin{aligned}
+\begin{align}
 Π_{sc}^{*} = \max_{p, e} \quad & Π_{sc} = Π_{m} + Π_{r} \\
-\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2\\
-\end{aligned}
+\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2 \tag{1}\\
+\end{align}
 $$
 
 $$
-\begin{aligned}
+\begin{align}
 \frac{\partial Π_{sc}}{\partial p} = 0 \quad & \Rightarrow \quad p^{c*} = \frac{τ(a - bc)}{4bh - τ^2}\\
-\frac{\partial Π_{sc}}{\partial e} = 0 \quad & \Rightarrow \quad e^{c*} = \frac{2ah + 2bch -cτ^2}{4bh - τ^2} \\
-\end{aligned}
+\frac{\partial Π_{sc}}{\partial e} = 0 \quad & \Rightarrow \quad e^{c*} = \frac{2ah + 2bch -cτ^2}{4bh - τ^2} \tag{2}\\
+\end{align}
 $$
 
 By substituting (2) and (3) into the demand function, we obtain the demand from consumers of the centralised model:
 
 $$
-\begin{aligned}
-D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh}}\\
-\end{aligned}
+\begin{align}
+D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh} } \tag{3}\\
+\end{align}
 $$
 
 Substituting equations(2) into (1), we could obtain the optimal profit of the centralised model:
 
 $$
-\begin{aligned}
-Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2}
-\end{aligned}
+\begin{align}
+Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2} \tag{4}
+\end{align}
 $$
 
 $$
-\begin{aligned}
-Π_{m} &= (w - c)(a - bp + τe) - he^2\\
-Π_{r} &= (p - w)(a - bp + τe)
-\end{aligned}
+\begin{align}
+Π_{m} &= (w - c)(a - bp + τe) - he^2 \\
+Π_{r} &= (p - w)(a - bp + τe) \tag{5}
+\end{align}
 $$
 
 Furthermore, we seperate the overall profit into the profit of the manufacturer and retailer as (5). Again, we substitute (2) into (5) and obtain the optimal profit of the manufacturer and retailer of the centralised model:
 
 $$
-\begin{aligned}
-Π_{m}^{c*} &= w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\- 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2}\\
-Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)}
-\end{aligned}
+\begin{align}
+Π_{m}^{c*} &= w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\ - 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2}\\
+Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)} \tag{6}
+\end{align}
 $$
 
 ### Decentralised model
