@@ -128,13 +128,13 @@ The optimal solutions are derived under different scenarios: (1) centralised sce
 $$
 \begin{aligned}
 Π_{sc}^{*} = \max_{p, e} \quad & Π_{sc} = Π_{m} + Π_{r} \\
-\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2 \tag{1}\\
+\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2\\
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\frac{\partial Π_{sc}}{\partial p} = 0 \quad & \Rightarrow \quad p^{c*} = \frac{τ(a - bc)}{4bh - τ^2} \tag{2}\\
+\frac{\partial Π_{sc}}{\partial p} = 0 \quad & \Rightarrow \quad p^{c*} = \frac{τ(a - bc)}{4bh - τ^2}\\
 \frac{\partial Π_{sc}}{\partial e} = 0 \quad & \Rightarrow \quad e^{c*} = \frac{2ah + 2bch -cτ^2}{4bh - τ^2} \\
 \end{aligned}
 $$
@@ -145,21 +145,21 @@ By substituting (2) and (3) into the demand function, we obtain the demand from 
 
 $$
 \begin{aligned}
-D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh}} \tag{3}\\
+D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh}}\\
 \end{aligned}
 $$
 Substituting equations(2) into (1), we could obtain the optimal profit of the centralised model:
 
 $$
 \begin{aligned}
-Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2} \tag{4}
+Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2}
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-Π_{m} = (w - c)(a - bp + τe) - he^2\\
-Π_{r} = (p - w)(a - bp + τe) \tag{5}
+Π_{m} &= (w - c)(a - bp + τe) - he^2\\
+Π_{r} &= (p - w)(a - bp + τe)
 \end{aligned}
 $$
 
@@ -167,13 +167,8 @@ Furthermore, we seperate the overall profit into the profit of the manufacturer 
 
 $$
 \begin{aligned}
-Π_{m}^{c*} = w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\- 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2} \tag{6}
-\end{aligned}
-$$
-
-$$
-\begin{aligned}
-Π_{r}^{c*} = \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)} \tag{7}
+Π_{m}^{c*} &= w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\- 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2}\\
+Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)}
 \end{aligned}
 $$
 
