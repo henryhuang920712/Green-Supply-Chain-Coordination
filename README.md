@@ -209,15 +209,18 @@ p^{HGRS*}_r &= \frac{v(a + τe) + w_rb}{2bv}\\
 $$
 
 Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
+
 $$
 \begin{align}
 w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{10}\\
 \end{align}
 $$
+
 Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
+
 $$
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi}\\ &+ \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{11}\\
+w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{11}\\
 \end{align}
 $$
 
