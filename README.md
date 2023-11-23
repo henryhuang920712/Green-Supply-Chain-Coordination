@@ -191,6 +191,36 @@ $$
 $$
 
 Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income $(1 - v)$, and a portion of share from the greening cost $(1 - \varphi)$. Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income $v$ and a portion of share from the greening cost $\varphi$.
+
+The optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract are obtained by solving the following equations: 
+
+$$
+\begin{align}
+e^{HGRS*}_m &= \frac{((1 - v)p + w_r + c)τ}{2h(1 - \varphi)} \tag{8}\\
+&= \frac{τ(2bv(w_r - c) + (1 - v)(va + w_r b))}{4bhv(1 - \varphi) - τ^2 v(1 - v)} \tag{8}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+p^{HGRS*}_r &= \frac{v(a + τe) + w_rb}{2bv}\\
+&= \frac{τ^2v(w_r - c) + 2h(1 - \varphi)(va + w_r b)}{4bhv(1 - \varphi) - τ^2 v(1 - v)}\tag{9}
+\end{align}
+$$
+
+Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
+$$
+\begin{align}
+w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{10}\\
+\end{align}
+$$
+Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
+$$
+\begin{align}
+w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi}\\ &+ \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{11}\\
+\end{align}
+$$
+
 # Numerical analyses
 
 # Conclusion
