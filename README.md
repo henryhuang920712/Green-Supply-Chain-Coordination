@@ -2,7 +2,7 @@
 
  <!-- A green supply chain coordination approach of balancing price and green quality in presence of consumer environmental awareness. -->
 
-<details>
+<details open="open">
 <summary><b>Table of Contents</b></summary>
 
 1. [Introduction](#introduction)
@@ -121,13 +121,15 @@ The **notation** used in this tutorial is as follows:<br>
 
 ## Model Formulations and solution
 
-The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts.
+The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts. <br>
 
-### Centralised model
+The **Demand Function** is D = _a − bp + τe_
 
-### Decentralised model
+### (1) Centralised model
 
-### Hybrid greening cost and revenue sharing contract
+### (2) Decentralised model
+
+### (3) Hybrid greening cost and revenue sharing contract
 
 # Numerical analyses
 
