@@ -179,6 +179,18 @@ $$
 
 ### (3) Hybrid greening cost and revenue sharing contract
 
+Revenue sharing is a well-known strategy to coordinate the supply chain. In this section, we propose a **hybrid greening cost and revenue sharing contract (HGRS)** to coordinate the supply chain. In this contract, the manufacturer offers a new lower wholesale price and instead asks the retailerto share a portion of selling revenue. The manufacturer also asks the retailer to share a portion of greening cost. 
+
+Under this contract, the retailer agrees on collaboration if the profit under the contract is higher than the profit under the decentralised model, whereas the manufacturer agrees on collaboration if the profit under the contract is higher than the profit under the centralised model. The hybrid greening cost and revenue sharing contract is formulated as follows:
+
+$$
+\begin{align}
+Π_{m}^{HGRS} &= ((1 - v)p + w_r - c)(a - bp + τe) - (1 - \varphi)he^2\\
+Π_{r}^{HGRS} &= (vp - w_r)(a - bp + τe) - \varphi he^2 \tag{7}
+\end{align}
+$$
+
+Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income (1 - v), and a portion of share from the greening cost (1 - $\varphi$). Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income (v) and a portion of share from the greening cost ($\varphi$).
 # Numerical analyses
 
 # Conclusion
