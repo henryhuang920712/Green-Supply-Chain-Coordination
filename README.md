@@ -128,54 +128,99 @@ The **Demand Function** is `D = _a − bp + τe_`
 ### (1) Centralised model
 
 $$
-\begin{aligned}
+\begin{align}
 Π_{sc}^{*} = \max_{p, e} \quad & Π_{sc} = Π_{m} + Π_{r} \\
-\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2\\
-\end{aligned}
+\text{s.t.} \quad & Π_{sc} = (p - c)(a - bp + τe) - he^2 \tag{1}\\
+\end{align}
 $$
 
 $$
-\begin{aligned}
+\begin{align}
 \frac{\partial Π_{sc}}{\partial p} = 0 \quad & \Rightarrow \quad p^{c*} = \frac{τ(a - bc)}{4bh - τ^2}\\
-\frac{\partial Π_{sc}}{\partial e} = 0 \quad & \Rightarrow \quad e^{c*} = \frac{2ah + 2bch -cτ^2}{4bh - τ^2} \\
-\end{aligned}
+\frac{\partial Π_{sc}}{\partial e} = 0 \quad & \Rightarrow \quad e^{c*} = \frac{2ah + 2bch -cτ^2}{4bh - τ^2} \tag{2}\\
+\end{align}
 $$
 
 By substituting (2) and (3) into the demand function, we obtain the demand from consumers of the centralised model:
 
 $$
-\begin{aligned}
-D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh}}\\
-\end{aligned}
+\begin{align}
+D(p^{c*}, e^{c*}) = a - bp^{c*} + τe^{c*} \quad & \Rightarrow \quad D(p^{c*}, e^{c*}) = \frac{2a - 2bc}{4 - \frac{τ^2}{bh} } \tag{3}\\
+\end{align}
 $$
 
 Substituting equations(2) into (1), we could obtain the optimal profit of the centralised model:
 
 $$
-\begin{aligned}
-Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2}
-\end{aligned}
+\begin{align}
+Π_{sc}^{c*} = \frac{a^2 - 2abc + b^2c^2}{4bh - τ^2} \tag{4}
+\end{align}
 $$
 
 $$
-\begin{aligned}
-Π_{m} &= (w - c)(a - bp + τe) - he^2\\
-Π_{r} &= (p - w)(a - bp + τe)
-\end{aligned}
+\begin{align}
+Π_{m} &= (w - c)(a - bp + τe) - he^2 \\
+Π_{r} &= (p - w)(a - bp + τe) \tag{5}
+\end{align}
 $$
 
 Furthermore, we seperate the overall profit into the profit of the manufacturer and retailer as (5). Again, we substitute (2) into (5) and obtain the optimal profit of the manufacturer and retailer of the centralised model:
 
 $$
-\begin{aligned}
-Π_{m}^{c*} &= w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\- 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2}\\
-Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)}
-\end{aligned}
+\begin{align}
+Π_{m}^{c*} &= w \left(\frac{2abh - 2b^2ch}{4bh - τ^2} \right) + \frac{\begin{pmatrix} 8b^3c^2h^2 - 8ab^2ch^2 \\ - 3b^2c^2hτ^2 + 4abchτ^2 - ha^2τ^2 \end{pmatrix}}{(4bh - τ^2)^2}\\
+Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)} \tag{6}
+\end{align}
 $$
 
 ### (2) Decentralised model
 
 ### (3) Hybrid greening cost and revenue sharing contract
+
+Revenue sharing is a well-known strategy to coordinate the supply chain. In this section, we propose a **hybrid greening cost and revenue sharing contract (HGRS)** to coordinate the supply chain. In this contract, the manufacturer offers a new lower wholesale price and instead asks the retailerto share a portion of selling revenue. The manufacturer also asks the retailer to share a portion of greening cost. 
+
+Under this contract, the retailer agrees on collaboration if the profit under the contract is higher than the profit under the decentralised model, whereas the manufacturer agrees on collaboration if the profit under the contract is higher than the profit under the centralised model. The hybrid greening cost and revenue sharing contract is formulated as follows:
+
+$$
+\begin{align}
+Π_{m}^{HGRS} &= ((1 - v)p + w_r - c)(a - bp + τe) - (1 - \varphi)he^2\\
+Π_{r}^{HGRS} &= (vp - w_r)(a - bp + τe) - \varphi he^2 \tag{7}
+\end{align}
+$$
+
+Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income $(1 - v)$, and a portion of share from the greening cost $(1 - \varphi)$. Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income $v$ and a portion of share from the greening cost $\varphi$.
+
+The optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract are obtained by solving the following equations: 
+
+$$
+\begin{align}
+e^{HGRS*}_m &= \frac{((1 - v)p + w_r + c)τ}{2h(1 - \varphi)} \tag{8}\\
+&= \frac{τ(2bv(w_r - c) + (1 - v)(va + w_r b))}{4bhv(1 - \varphi) - τ^2 v(1 - v)} \tag{8}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+p^{HGRS*}_r &= \frac{v(a + τe) + w_rb}{2bv}\\
+&= \frac{τ^2v(w_r - c) + 2h(1 - \varphi)(va + w_r b)}{4bhv(1 - \varphi) - τ^2 v(1 - v)}\tag{9}
+\end{align}
+$$
+
+Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
+
+$$
+\begin{align}
+w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{10}\\
+\end{align}
+$$
+
+Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
+
+$$
+\begin{align}
+w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{11}\\
+\end{align}
+$$
 
 # Numerical analyses
 
