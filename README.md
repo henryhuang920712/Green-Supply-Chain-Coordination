@@ -123,7 +123,7 @@ The **notation** used in this tutorial is as follows:<br>
 
 The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts. <br>
 
-The **Demand Function** is D = _a − bp + τe_
+The **Demand Function** is `D = _a − bp + τe_`
 
 ### (1) Centralised model
 
@@ -172,8 +172,6 @@ $$
 Π_{r}^{c*} &= \frac{2bh(2a^2h - 2b^2c^2h - acτ^2 + bc^2τ^2)}{(4bh - τ^2)^2} - w\frac{2abh - 2b^2ch}{(4bh - τ^2)}
 \end{aligned}
 $$
-
-### Decentralised model
 
 ### (2) Decentralised model
 
