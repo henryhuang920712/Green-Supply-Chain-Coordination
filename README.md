@@ -9,9 +9,9 @@
 2. [The Model](#the-model)
    - [Model Description](#model-Description)
    - [Model Formulations and Solution](#model-formulations-and-solution)
-     - [Centralised model](#centralised-model)
-     - [Decentralised model](#centralised-model)
-     - [Hybrid greening cost and revenue sharing contract](#hybrid-greening-cost-and-revenue-sharing-contract)
+     - [Centralised model](#1-centralised-model)
+     - [Decentralised model](#2-decentralised-model)
+     - [Hybrid greening cost and revenue sharing contract](#3-hybrid-greening-cost-and-revenue-sharing-contract)
 3. [Numerical Analyses](#numerical-analyses)
 4. [Conclusion](#conclusion)
 
@@ -175,53 +175,99 @@ $$
 
 ### (2) Decentralised model
 
+$$
+\begin{align}
+e^{d*}_m = \frac{(w - c)τ}{2h} \tag{7}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+p^{d*}_r = \frac{a + wb + τe}{2b} = \frac{2h(a + bw) + τ^2(w -c)}{4bh} \tag{8}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+D^{d*} = \frac{2h(a - wb) + τ^2(w -c)}{4h} \tag{9}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+Π^{d*}_m &= (w - c)\frac{(a - wb)}{2} \tag{10}\\
+\end{align}
+$$
+
+$$
+\begin{align}
+Π^{d*}_r &= \frac{(2h(a - wb) + τ^2(w -c))^2}{16bh^2} \tag{11}
+\end{align}
+$$
+
+$$
+\begin{align}
+Π^{d*}_{sc} &= Π^{d*}_m + Π^{d*}_r\\
+&= \frac{\begin{pmatrix}(2h(a - wb) + τ^2(w -c))^2 \\ + 8bh^2(a -wb)(w - c)\end{pmatrix}}{16bh^2}\tag{12}
+\end{align}
+$$
+
 ### (3) Hybrid greening cost and revenue sharing contract
 
-Revenue sharing is a well-known strategy to coordinate the supply chain. In this section, we propose a **hybrid greening cost and revenue sharing contract (HGRS)** to coordinate the supply chain. In this contract, the manufacturer offers a new lower wholesale price and instead asks the retailerto share a portion of selling revenue. The manufacturer also asks the retailer to share a portion of greening cost. 
+Revenue sharing is a well-known strategy to coordinate the supply chain. In this section, we propose a **hybrid greening cost and revenue sharing contract (HGRS)** to coordinate the supply chain. In this contract, the manufacturer offers a new lower wholesale price and instead asks the retailerto share a portion of selling revenue. The manufacturer also asks the retailer to share a portion of greening cost.
 
 Under this contract, the retailer agrees on collaboration if the profit under the contract is higher than the profit under the decentralised model, whereas the manufacturer agrees on collaboration if the profit under the contract is higher than the profit under the centralised model. The hybrid greening cost and revenue sharing contract is formulated as follows:
 
 $$
 \begin{align}
-Π_{m}^{HGRS} &= ((1 - v)p + w_r - c)(a - bp + τe) - (1 - \varphi)he^2\\
-Π_{r}^{HGRS} &= (vp - w_r)(a - bp + τe) - \varphi he^2 \tag{7}
+Π*{m}^{HGRS} &= ((1 - v)p + w_r - c)(a - bp + τe) - (1 - \varphi)he^2\\
+Π*{r}^{HGRS} &= (vp - w_r)(a - bp + τe) - \varphi he^2 \tag{13}
 \end{align}
 $$
 
 Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income $(1 - v)$, and a portion of share from the greening cost $(1 - \varphi)$. Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income $v$ and a portion of share from the greening cost $\varphi$.
 
-The optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract are obtained by solving the following equations: 
+The optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract are obtained by solving the following equations:
 
 $$
 \begin{align}
-e^{HGRS*}_m &= \frac{((1 - v)p + w_r + c)τ}{2h(1 - \varphi)} \tag{8}\\
-&= \frac{τ(2bv(w_r - c) + (1 - v)(va + w_r b))}{4bhv(1 - \varphi) - τ^2 v(1 - v)} \tag{8}\\
+e^{HGRS*}_m &= \frac{((1 - v)p + w_r + c)τ}{2h(1 - \varphi)} \\
+&= \frac{τ(2bv(w_r - c) + (1 - v)(va + w_r b))}{4bhv(1 - \varphi) - τ^2 v(1 - v)} \tag{14}\\
 \end{align}
 $$
 
 $$
 \begin{align}
 p^{HGRS*}_r &= \frac{v(a + τe) + w_rb}{2bv}\\
-&= \frac{τ^2v(w_r - c) + 2h(1 - \varphi)(va + w_r b)}{4bhv(1 - \varphi) - τ^2 v(1 - v)}\tag{9}
+&= \frac{τ^2v(w_r - c) + 2h(1 - \varphi)(va + w_r b)}{4bhv(1 - \varphi) - τ^2 v(1 - v)}\tag{15}
 \end{align}
 $$
 
 Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
 
 $$
+
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{10}\\
+w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{16}\\
 \end{align}
+
+
 $$
 
 Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
 
 $$
+
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{11}\\
+w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{17}\\
 \end{align}
+
+
 $$
 
 # Numerical analyses
 
 # Conclusion
+
+$$
+$$
