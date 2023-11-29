@@ -204,6 +204,7 @@ D^{d*} = \frac{2h(a - wb) + τ^2(w -c)}{4h} \tag{9}\\
 $$
 
 Furthermore, by substitution of $e^{d*}_m$ and $p^{d*}_r$ from Equations (7) and (8) into Equation (5), we can calculate the manufacturer’s optimal profit (10) and retailer’s optimal profit (11) in the decentralised model as
+
 $$
 \begin{align}
 Π^{d*}_m &= (w - c)\frac{(a - wb)}{2} \tag{10}\\
