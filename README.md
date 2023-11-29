@@ -179,6 +179,7 @@ In a decentralised supply chain, each member aims to optimize individual profits
 In the retailer-led Stackelberg game, the retailer decides on price first, aware of the manufacturer's decision on quality. Backward induction solves the manufacturer's problem, determining optimal quality e, then the retailer's model calculates optimal price p. To align with the retailer-led game, the manufacturer tends to set a high wholesale price. To maintain realism, we treat wholesale price as exogenous, set competitively in an environment with existing competitors.
 
 Optimal *e* under the decentralised decision-making is
+
 $$
 \begin{align}
 e^{d*}_m = \frac{(w - c)τ}{2h} \tag{7}\\
@@ -186,6 +187,7 @@ e^{d*}_m = \frac{(w - c)τ}{2h} \tag{7}\\
 $$
 
 Optimal *p* under the decentralised decision-making is
+
 $$
 \begin{align}
 p^{d*}_r = \frac{a + wb + τe}{2b} = \frac{2h(a + bw) + τ^2(w -c)}{4bh} \tag{8}\\
@@ -194,6 +196,7 @@ $$
 
 Substituting $e^{d*}_m$ and $p^{d*}_r$ from Equations (7) and (8) into the demand function, we can calculate market
 demand under the decentralised framework as
+
 $$
 \begin{align}
 D^{d*} = \frac{2h(a - wb) + τ^2(w -c)}{4h} \tag{9}\\
@@ -207,6 +210,7 @@ $$
 \end{align}
 $$
 
+
 $$
 \begin{align}
 Π^{d*}_r &= \frac{(2h(a - wb) + τ^2(w -c))^2}{16bh^2} \tag{11}
@@ -214,6 +218,7 @@ $$
 $$
 
 The total profit of the supply chain under the decentralised scenario can be calculated as
+
 $$
 \begin{align}
 Π^{d*}_{sc} &= Π^{d*}_m + Π^{d*}_r\\
