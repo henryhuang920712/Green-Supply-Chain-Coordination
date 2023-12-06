@@ -261,7 +261,7 @@ Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
 
 $$
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{16}\\
+w_r(v, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{16}\\
 \end{align}
 $$
 
@@ -269,10 +269,110 @@ Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
 
 $$
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{17}\\
+w_r(v, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{17}\\
 \end{align}
 $$
 
+To get the valid interval of the application from HGRS, we ensure the profit gained from both the manufacturer and the retailer be no less than the profit under the decentralised scenario by the following inequalities:
+
+$$
+\begin{align}
+Π^{HGRS*}_m(p^{c*}_m, e^{c*}_m, w_r, \varphi, v) \geq Π^{d*}_m (p^{d*}_r, e^{d*}_m, w)\\
+Π^{HGRS*}_r(p^{d*}_r, e^{c*}_m, w_r, \varphi, v) \geq Π^{d*}_r (p^{d*}_r, e^{d*}_m, w) \tag{18}\\
+\end{align}
+$$
+
+By computing the inequalities (18), we obtain the valid interval of the application from HGRS in terms of $v$ from the perspective of the manufacturer as follows:
+
+$$
+\begin{align}
+v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ - (w - c)(a - bp^{d*}_r + τe^{d*}_{m})\\ - h((e^{d*}_m)^{2} - (e^{d*}_m)^2) + \varphi h (e^{c*}_m)^2\\ + w_r(a - bp^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{19}\\
+\end{align}
+$$
+
+Similarly, we obtain the valid interval of the application from HGRS in terms of $v$ from the perspective of the retailer as follows:
+
+$$
+\begin{align}
+v \geq \frac{\left( \begin{split} (p^{d*}_r - w)(a - bp^{d*}_r + τe^{d*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - b^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{20}\\
+\end{align}
+$$
+
+From equations (19) and (20), we can obtain the valid interval of the application from HGRS in terms of $v$, which makes the HGRS contract effective in coordinate the supply chain with a win-win outcome for both the manufacturer and the retailer.
+
 # Numerical analyses
+
+In conducting the numerical analyses, we first set the parameters of the model as follows:
+
+<table>
+<tr>
+<td>Examples</td>
+<td>a<td>
+<td>b<td>
+<td>τ<td>
+<td>w<td>
+<td>c<td>
+<td>h<td>
+</tr>
+<tr>
+<td>Example 1</td>
+<td>1000<td>
+<td>50<td>
+<td>10<td>
+<td>10<td>
+<td>0<td>
+<td>2<td>
+</tr>
+<tr>
+<td>Example 2</td>
+<td>60<td>
+<td>1<td>
+<td>1.5<td>
+<td>31.5<td>
+<td>3<td>
+<td>2<td>
+</tr>
+<tr>
+<td>Example 3</td>
+<td>400<td>
+<td>25<td>
+<td>5<td>
+<td>9<td>
+<td>2<td>
+<td>3<td>
+</table>
+
+We calculate the decision variables under the decentralized, centralized, and hybrid greening cost and revenue sharing contract scenarios. Then we explore the accceptable interval for the parameter $v$ staisfying 
+the inequalities (19) and (20) to ensure the HGRS contract is effective in coordinating the supply chain.
+
+The following table illustrates the lower and upper bounds of the acceptable interval for the parameter $v$ in the three examples, as well as the arbitrary value eventually employed in the numerical analyses.
+
+<table>
+<tr>
+<td>Examples</td>
+<td>Min v<td>
+<td>Max v</td>
+<td>Chosen v</td>
+</tr>
+<tr>
+<td>Example 1</td>
+<td>0.422<td>
+<td>0.624<td>
+<td>0.523<td>
+</tr>
+<tr>
+<td>Example 2</td>
+<td>0.439<td>
+<td>0.640<td>
+<td>0.540<td>
+</tr>
+<tr>
+<td>Example 3</td>
+<td>0.312<td>
+<td>0.541<td>
+<td>0.426<td>
+</table>
+
+
 
 # Conclusion
