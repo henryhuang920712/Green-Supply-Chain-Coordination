@@ -490,15 +490,40 @@ Intuitively, centralized model achieves the highest profit for the whole supply 
 
 ### 2. Sensitivity analyses
 
-<!-- read image /images/h_and_e.png -->
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
 
-In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the HGRS contract. We first fix the value of $v$ and vary the value of $τ$ to observe the impact of $τ$ on $e^*$ and $p^*$. Then we fix the value of $τ$ and vary the value of $v$ to observe the impact of $v$ on $e^*$ and $p^*$. The following figures illustrate the sensitivity analyses in the three examples.
+- **Manufacturer's perspective**
 
+Owing to the higher income provided by the HGRS contract, the manufacturer prefers HGRS contract to the decentralized model. From *figure 1(A)*, we observe that the manufacturer's profitability remains constant to changes in $h$, as it selects lower values of $e$ in prevention of additional costs as illustrated by *figure 1(B)*. In contrast, the manufacturer's profitability remains higher than the decentralized model though effected by the decrease on selling price as illustrated by *figure 2(B)*.
+
+- **Retailer's perspective**
+
+Observing *figure 2(A)*, the retailer's profit decreases in all scenarios in react to the increase in $h$. Nevertheless, the profitability of the retailer under the HGRS contract remains higher than other two scenarios, providing a strong incentive for the retailer to stay collaboration with the manufacturer. On the other hand,  the increase of $h$ reduces the value of $p$ in all models in *figure 3(B)*. This seems to be a response from the retailer to attract customers under the decrease of $e$ by the manufacturer in *figure 1(B)*. 
+
+In conclusion, the HGRS contract ends up with s lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market. 
 
 <div style="display: flex; justify-content: space-between;">
-  ![image](images/h_and_e.png)
-  ![image](images/h_and_pi_star_r.png)
+  <div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="images/h_and_pi_star_m.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 1(A)</p>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="images/h_and_e.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 1(B)</p>
+  </div>
 </div>
+<div style="display: flex; justify-content: space-between;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="images/h_and_pi_star_r.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="images/h_and_p_star.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
+  </div>
+</div>
+
+
 
 
 # Conclusion
