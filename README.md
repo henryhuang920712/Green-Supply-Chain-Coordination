@@ -302,44 +302,46 @@ From equations (19) and (20), we can obtain the valid interval of the applicatio
 
 # Numerical analyses
 
+### 1. Parameters
+
 In conducting the numerical analyses, we first set the parameters of the model as follows:
 
 <table>
 <tr>
 <th>Examples</th>
-<th>a<th>
-<th>b<th>
-<th>τ<th>
-<th>w<th>
-<th>c<th>
-<th>h<th>
+<th>a</th>
+<th>b</th>
+<th>τ</th>
+<th>w</th>
+<th>c</th>
+<th>h</th>
 </tr>
 <tr>
 <td>Example 1</td>
-<td>1000<td>
-<td>50<td>
-<td>10<td>
-<td>10<td>
-<td>0<td>
-<td>2<td>
+<td>1000</td>
+<td>50</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Example 2</td>
-<td>60<td>
-<td>1<td>
-<td>1.5<td>
-<td>31.5<td>
-<td>3<td>
-<td>2<td>
+<td>60</td>
+<td>1</td>
+<td>1.5</td>
+<td>31.5</td>
+<td>3</td>
+<td>2</td>
 </tr>
 <tr>
 <td>Example 3</td>
-<td>400<td>
-<td>25<td>
-<td>5<td>
-<td>9<td>
-<td>2<td>
-<td>3<td>
+<td>400</td>
+<td>25</td>
+<td>5</td>
+<td>9</td>
+<td>2</td>
+<td>3</td>
 </table>
 
 We calculate the decision variables under the decentralized, centralized, and hybrid greening cost and revenue sharing contract scenarios. Then we explore the accceptable interval for the parameter $v$ staisfying 
@@ -485,5 +487,18 @@ Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green qu
 </table>
 
 Intuitively, centralized model achieves the highest profit for the whole supply fhain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
+
+### 2. Sensitivity analyses
+
+<!-- read image /images/h_and_e.png -->
+
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the HGRS contract. We first fix the value of $v$ and vary the value of $τ$ to observe the impact of $τ$ on $e^*$ and $p^*$. Then we fix the value of $τ$ and vary the value of $v$ to observe the impact of $v$ on $e^*$ and $p^*$. The following figures illustrate the sensitivity analyses in the three examples.
+
+
+<div style="display: flex; justify-content: space-between;">
+  ![image](images/h_and_e.png)
+  ![image](images/h_and_pi_star_r.png)
+</div>
+
 
 # Conclusion
