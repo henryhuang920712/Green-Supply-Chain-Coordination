@@ -306,13 +306,13 @@ In conducting the numerical analyses, we first set the parameters of the model a
 
 <table>
 <tr>
-<td>Examples</td>
-<td>a<td>
-<td>b<td>
-<td>τ<td>
-<td>w<td>
-<td>c<td>
-<td>h<td>
+<th>Examples</th>
+<th>a<th>
+<th>b<th>
+<th>τ<th>
+<th>w<th>
+<th>c<th>
+<th>h<th>
 </tr>
 <tr>
 <td>Example 1</td>
@@ -349,10 +349,10 @@ The following table illustrates the lower and upper bounds of the acceptable int
 
 <table>
 <tr>
-<td>Examples</td>
-<td>Min v<td>
-<td>Max v</td>
-<td>Chosen v</td>
+<th>Examples</th>
+<th>v<sub>min<th>
+<th>v<sub>Max</th>
+<th>Chosen v</th>
 </tr>
 <tr>
 <td>Example 1</td>
@@ -373,6 +373,116 @@ The following table illustrates the lower and upper bounds of the acceptable int
 <td>0.426<td>
 </table>
 
+Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract. Then we can calculate the optimal profit of the manufacturer and the retailer under the contract. The following table illustrates the optimal decision variables and the optimal profit of the manufacturer and the retailer under the HGRS contract in the three examples.
 
+<table>
+<tr>
+<th>Scenarios</th>
+<th>Example 1</th>
+<th>Example 2</th>
+<th>Example 3</th>
+</tr>
+<tr>
+<th>Decentralised</th>
+</tr>
+<tr>
+<td>p</td>
+<td>17.5</td>
+<td>53.77</td>
+<td>13.08</td>
+</tr>
+<tr>
+<td>e</td>
+<td>25</td>
+<td>10.68</td>
+<td>5.82</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>2500</td>
+<td>406.1</td>
+<td>612.5</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>2812.5</td>
+<td>495.8</td>
+<td>416.8</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>5312.5</td>
+<td>901.9</td>
+<td>1029.3</td>
+</tr>
+<tr>
+<th>Centralised</th>
+</tr>
+<tr>
+<td>p</td>
+<td>13.33</td>
+<td>42.65</td>
+<td>9.64</td>
+</tr>
+<tr>
+<td>e</td>
+<td>33.33</td>
+<td>14.87</td>
+<td>6.36</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>4444.4</td>
+<td>687.9</td>
+<td>1214.9</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>2222.3</td>
+<td>442.2</td>
+<td>121.5</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>6666.7</td>
+<td>1130.1</td>
+<td>1336.4</td>
+</tr>
+<tr>
+<th>HGRS Contract</th>
+</tr>
+<tr>
+<td>p</td>
+<td>13.33</td>
+<td>42.65</td>
+<td>9.64</td>
+</tr>
+<tr>
+<td>e</td>
+<td>33.33</td>
+<td>14.87</td>
+<td>6.36</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>3180</td>
+<td>519.8</td>
+<td>767.1</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>3486.7</td>
+<td>610.3</td>
+<td>569.3</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>6666.7</td>
+<td>1130.1</td>
+<td>1336.4</td>
+</tr>
+</table>
+
+Intuitively, centralized model achieves the highest profit for the whole supply fhain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
 
 # Conclusion
