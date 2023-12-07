@@ -346,32 +346,33 @@ We calculate the decision variables under the decentralized, centralized, and hy
 the inequalities (19) and (20) to ensure the HGRS contract is effective in coordinating the supply chain.
 
 The following table illustrates the lower and upper bounds of the acceptable interval for the parameter $v$ in the three examples, as well as the arbitrary value eventually employed in the numerical analyses.
-
 <table>
-<tr>
-<th>Examples</th>
-<th>v<sub>min<th>
-<th>v<sub>Max</th>
-<th>Chosen v</th>
-</tr>
-<tr>
-<td>Example 1</td>
-<td>0.422<td>
-<td>0.624<td>
-<td>0.523<td>
-</tr>
-<tr>
-<td>Example 2</td>
-<td>0.439<td>
-<td>0.640<td>
-<td>0.540<td>
-</tr>
-<tr>
-<td>Example 3</td>
-<td>0.312<td>
-<td>0.541<td>
-<td>0.426<td>
+  <tr>
+    <th>Examples</th>
+    <th>v<sub>min</sub></th>
+    <th>v<sub>max</sub></th>
+    <th>Chosen v</th>
+  </tr>
+  <tr>
+    <td>Example 1</td>
+    <td>0.422</td>
+    <td>0.624</td>
+    <td>0.523</td>
+  </tr>
+  <tr>
+    <td>Example 2</td>
+    <td>0.439</td>
+    <td>0.640</td>
+    <td>0.540</td>
+  </tr>
+  <tr>
+    <td>Example 3</td>
+    <td>0.312</td>
+    <td>0.541</td>
+    <td>0.426</td>
+  </tr>
 </table>
+
 
 Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract. Then we can calculate the optimal profit of the manufacturer and the retailer under the contract. The following table illustrates the optimal decision variables and the optimal profit of the manufacturer and the retailer under the HGRS contract in the three examples.
 
