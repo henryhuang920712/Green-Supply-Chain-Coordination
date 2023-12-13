@@ -488,14 +488,22 @@ Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green qu
 
 Intuitively, centralized model achieves the highest profit for the whole supply chain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
 
-We further illustrate the feasible ingervals for the contract parameter $v$ in the three examples with the figures below.
+We further illustrate the feasible intervals for the contract parameter $v$ in the three examples with the figures below. As showed in *figure 1(A)*, the acceptable interval for the contract parameter $v$ in example 1 is $[0.422, \, 0.624]$, meaning that both the manufacturer and the retailer are able to profit more from the HGRS contract than staying indifferent, while the profit of the two conponents stays constant with the retailer earning slightly higher than the manufacturer in the decentralized scenario.
+
+In example 2 and 3, the acceptable intervals for the contract parameter $v$ are respectively $[0.439, \, 0.640]$ and $[0.312, \, 0.541]$, as showed in *figure 1(B)* and *figure 1(C)*. Within the interval, the profits of the manufacturer and the retailer under the HGRS contract are higher than the profits under the decentralized scenario, providing a strong incentive for the two components to stay collaboration with each other.
 
 <table>
 <tr>
 <td><img src="images/v-ex1.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(A)</p></td>
 <td><img src="images/v-ex2.png" alt="figure 1(B)"><br><p style="text-align: center;">image 1(B)</p></td>
 </tr>
+<tr>
+<td>
+<img src="images/v-ex3.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(C)</p>
+</td>
+</tr>
 </table>
+
 ### 2. Sensitivity analyses
 
 In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
@@ -510,28 +518,33 @@ Observing *figure 2(A)*, the retailer's profit decreases in all scenarios in rea
 
 In conclusion, the HGRS contract ends up with s lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market. 
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="display: flex; flex-direction: column; align-items: center;">
+<table>
+<tr>
+<td>
   <img src="images/h_and_pi_star_m.png" alt="h_and_pi_star_m">
   <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center;">
+</td>
+<td>
   <img src="images/h_and_e.png" alt="h_and_e">
   <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
-  </div>
-</div>
-<div style="display: flex; justify-content: space-between;">
-  <div style="display: flex; flex-direction: column; align-items: center;">
+</td>
+</tr>
+<tr>
+<td>
   <img src="images/h_and_pi_star_r.png" alt="h_and_pi_star_m">
   <p style="text-algn: center; font-style: italic;">figure 3(A)</p>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center;">
+</td>
+<td>
   <img src="images/h_and_p_star.png" alt="h_and_e">
   <p style="text-algn: center; font-style: italic;">figure 3(B)</p>
-  </div>
-</div>
-
-
-
+</td>
+</tr>
+</table>
 
 # Conclusion
+
+In this tutorial, we have introduced the Green Supply Chain Coordination Approach, which is a model that balances price and green quality in the presence of consumer environmental awareness. We have also provided a hands-on application of the model by implementing it in Python. The model is able to coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. The HGRS contract ends up with a lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market.
+
+Several managerial implications for the supply chain members exists in this study; the most prominent one must be concerning the balancing the price and green quality of products. The model not only guarentees more profit for both members but also stimulate demand by offering cheaper and greener products over economics of scale.
+
+Regarding potential future research studies, a consideration of problem of asymmetric information sharing would be a good start, where the manufacturer doesn't share the greening costs to the retailer. Also, competition between multiple manufacturers and retailers could be considered in the model, where the manufacturer and retailer are able to choose their partners. Finally, the model could be extended to a multi-period setting, where the manufacturer and retailer are able to make decisions over multiple periods.
