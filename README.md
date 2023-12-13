@@ -486,8 +486,16 @@ Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green qu
 </tr>
 </table>
 
-Intuitively, centralized model achieves the highest profit for the whole supply fhain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
+Intuitively, centralized model achieves the highest profit for the whole supply chain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
 
+We further illustrate the feasible ingervals for the contract parameter $v$ in the three examples with the figures below.
+
+<table>
+<tr>
+<td><img src="images/v-ex1.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(A)</p></td>
+<td><img src="images/v-ex2.png" alt="figure 1(B)"><br><p style="text-align: center;">image 1(B)</p></td>
+</tr>
+</table>
 ### 2. Sensitivity analyses
 
 In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
@@ -505,21 +513,21 @@ In conclusion, the HGRS contract ends up with s lower selling price and a higher
 <div style="display: flex; justify-content: space-between;">
   <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="images/h_and_pi_star_m.png" alt="h_and_pi_star_m">
-  <p style="text-algn: center; font-style: italic;">figure 1(A)</p>
+  <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
   </div>
   <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="images/h_and_e.png" alt="h_and_e">
-  <p style="text-algn: center; font-style: italic;">figure 1(B)</p>
+  <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
   </div>
 </div>
 <div style="display: flex; justify-content: space-between;">
   <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="images/h_and_pi_star_r.png" alt="h_and_pi_star_m">
-  <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
+  <p style="text-algn: center; font-style: italic;">figure 3(A)</p>
   </div>
   <div style="display: flex; flex-direction: column; align-items: center;">
   <img src="images/h_and_p_star.png" alt="h_and_e">
-  <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
+  <p style="text-algn: center; font-style: italic;">figure 3(B)</p>
   </div>
 </div>
 
