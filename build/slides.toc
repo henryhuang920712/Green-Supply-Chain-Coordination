@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{The Model}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Model Description}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Model Formulations and Solution}{5}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{Centralized Model}{5}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{2}{Decentralized Model}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Model Description}{6}{0}{2}
+\beamer@subsectionintoc {2}{4}{Columns}{7}{0}{2}
+\beamer@sectionintoc {3}{Table and Figure Examples}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{Table}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Figure}{9}{0}{3}
+\beamer@sectionintoc {4}{Mathematics}{10}{0}{4}
+\beamer@sectionintoc {5}{Referencing}{15}{0}{5}
