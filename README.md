@@ -175,7 +175,7 @@ $$
 
 ### (2) Decentralised model
 
-In a decentralised supply chain, each member aims to optimize individual profits independently. The manufacturer determines green quality, and the retailer sets prices based on profitability.
+In a decentralised supply chain, each member aims to optimize individual profits independently. The manufacturer determines green quality, and the retailer sets prices based on profitability.<br>
 In the retailer-led Stackelberg game, the retailer decides on price first, aware of the manufacturer's decision on quality. Backward induction solves the manufacturer's problem, determining optimal quality e, then the retailer's model calculates optimal price p. To align with the retailer-led game, the manufacturer tends to set a high wholesale price. To maintain realism, we treat wholesale price as exogenous, set competitively in an environment with existing competitors.
 
 Optimal *e* under the decentralised decision-making is
