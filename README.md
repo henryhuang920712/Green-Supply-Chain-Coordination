@@ -261,7 +261,7 @@ Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
 
 $$
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{16}\\
+w_r(v, \varphi) &= \frac{cv(1 + \varphi)}{1 + v} - \frac{v(4ah - cτ^2)(\varphi - v)}{(4bh - τ^2)(v + 1)} \tag{16}\\
 \end{align}
 $$
 
@@ -269,10 +269,285 @@ Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
 
 $$
 \begin{align}
-w_r(v,\, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{17}\\
+w_r(v, \varphi) &= \frac{cvτ^2 - 2ah(1 - \varphi)}{1 - \varphi} + \frac{4bh(1 - \varphi) - τ^2v(1 - v)}{b(vτ^2 + 2bh(1 -\varphi))} \cdot \left( \frac{a + bc}{2} + \frac{τ^2(a - bc)}{2(4bh) - τ^2} \right) \tag{17}\\
 \end{align}
 $$
 
+To get the valid interval of the application from HGRS, we ensure the profit gained from both the manufacturer and the retailer be no less than the profit under the decentralised scenario by the following inequalities:
+
+$$
+\begin{align}
+Π^{HGRS*}_m(p^{c*}_m, e^{c*}_m, w_r, \varphi, v) \geq Π^{d*}_m (p^{d*}_r, e^{d*}_m, w)\\
+Π^{HGRS*}_r(p^{d*}_r, e^{c*}_m, w_r, \varphi, v) \geq Π^{d*}_r (p^{d*}_r, e^{d*}_m, w) \tag{18}\\
+\end{align}
+$$
+
+By computing the inequalities (18), we obtain the valid interval of the application from HGRS in terms of $v$ from the perspective of the manufacturer as follows:
+
+$$
+\begin{align}
+v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ - (w - c)(a - bp^{d*}_r + τe^{d*}_{m})\\ - h((e^{d*}_m)^{2} - (e^{d*}_m)^2) + \varphi h (e^{c*}_m)^2\\ + w_r(a - bp^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{19}\\
+\end{align}
+$$
+
+Similarly, we obtain the valid interval of the application from HGRS in terms of $v$ from the perspective of the retailer as follows:
+
+$$
+\begin{align}
+v \geq \frac{\left( \begin{split} (p^{d*}_r - w)(a - bp^{d*}_r + τe^{d*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - b^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{20}\\
+\end{align}
+$$
+
+From equations (19) and (20), we can obtain the valid interval of the application from HGRS in terms of $v$, which makes the HGRS contract effective in coordinate the supply chain with a win-win outcome for both the manufacturer and the retailer.
+
 # Numerical analyses
 
+### 1. Parameters
+
+In conducting the numerical analyses, we first set the parameters of the model as follows:
+
+<table>
+<tr>
+<th>Examples</th>
+<th>a</th>
+<th>b</th>
+<th>τ</th>
+<th>w</th>
+<th>c</th>
+<th>h</th>
+</tr>
+<tr>
+<td>Example 1</td>
+<td>1000</td>
+<td>50</td>
+<td>10</td>
+<td>10</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Example 2</td>
+<td>60</td>
+<td>1</td>
+<td>1.5</td>
+<td>31.5</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Example 3</td>
+<td>400</td>
+<td>25</td>
+<td>5</td>
+<td>9</td>
+<td>2</td>
+<td>3</td>
+</table>
+
+We calculate the decision variables under the decentralized, centralized, and hybrid greening cost and revenue sharing contract scenarios. Then we explore the accceptable interval for the parameter $v$ staisfying 
+the inequalities (19) and (20) to ensure the HGRS contract is effective in coordinating the supply chain.
+
+The following table illustrates the lower and upper bounds of the acceptable interval for the parameter $v$ in the three examples, as well as the arbitrary value eventually employed in the numerical analyses.
+<table>
+  <tr>
+    <th>Examples</th>
+    <th>v<sub>min</sub></th>
+    <th>v<sub>max</sub></th>
+    <th>Chosen v</th>
+  </tr>
+  <tr>
+    <td>Example 1</td>
+    <td>0.422</td>
+    <td>0.624</td>
+    <td>0.523</td>
+  </tr>
+  <tr>
+    <td>Example 2</td>
+    <td>0.439</td>
+    <td>0.640</td>
+    <td>0.540</td>
+  </tr>
+  <tr>
+    <td>Example 3</td>
+    <td>0.312</td>
+    <td>0.541</td>
+    <td>0.426</td>
+  </tr>
+</table>
+
+
+Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract. Then we can calculate the optimal profit of the manufacturer and the retailer under the contract. The following table illustrates the optimal decision variables and the optimal profit of the manufacturer and the retailer under the HGRS contract in the three examples.
+
+<table>
+<tr>
+<th>Scenarios</th>
+<th>Example 1</th>
+<th>Example 2</th>
+<th>Example 3</th>
+</tr>
+<tr>
+<th>Decentralised</th>
+</tr>
+<tr>
+<td>p</td>
+<td>17.5</td>
+<td>53.77</td>
+<td>13.08</td>
+</tr>
+<tr>
+<td>e</td>
+<td>25</td>
+<td>10.68</td>
+<td>5.82</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>2500</td>
+<td>406.1</td>
+<td>612.5</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>2812.5</td>
+<td>495.8</td>
+<td>416.8</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>5312.5</td>
+<td>901.9</td>
+<td>1029.3</td>
+</tr>
+<tr>
+<th>Centralised</th>
+</tr>
+<tr>
+<td>p</td>
+<td>13.33</td>
+<td>42.65</td>
+<td>9.64</td>
+</tr>
+<tr>
+<td>e</td>
+<td>33.33</td>
+<td>14.87</td>
+<td>6.36</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>4444.4</td>
+<td>687.9</td>
+<td>1214.9</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>2222.3</td>
+<td>442.2</td>
+<td>121.5</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>6666.7</td>
+<td>1130.1</td>
+<td>1336.4</td>
+</tr>
+<tr>
+<th>HGRS Contract</th>
+</tr>
+<tr>
+<td>p</td>
+<td>13.33</td>
+<td>42.65</td>
+<td>9.64</td>
+</tr>
+<tr>
+<td>e</td>
+<td>33.33</td>
+<td>14.87</td>
+<td>6.36</td>
+</tr>
+<tr>
+<td>Π<sub>m</sub></td>
+<td>3180</td>
+<td>519.8</td>
+<td>767.1</td>
+</tr>
+<tr>
+<td>Π<sub>r</sub></td>
+<td>3486.7</td>
+<td>610.3</td>
+<td>569.3</td>
+</tr>
+<tr>
+<td>Π<sub>sc</sub></td>
+<td>6666.7</td>
+<td>1130.1</td>
+<td>1336.4</td>
+</tr>
+</table>
+
+Intuitively, centralized model achieves the highest profit for the whole supply chain than the other two scenarios from the above table. However, the profit obtained by the retailer worses off in centralized model in compare with the decentralized model, making it refuses to collaborate with the manufacturer. In contrast, the HGRS contract can coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. Therefore, the HGRS contract is effective in coordinating the supply chain with a win-win outcome for both the manufacturer and the retailer.
+
+We further illustrate the feasible intervals for the contract parameter $v$ in the three examples with the figures below. As showed in *figure 1(A)*, the acceptable interval for the contract parameter $v$ in example 1 is $[0.422, \, 0.624]$, meaning that both the manufacturer and the retailer are able to profit more from the HGRS contract than staying indifferent, while the profit of the two conponents stays constant with the retailer earning slightly higher than the manufacturer in the decentralized scenario.
+
+In example 2 and 3, the acceptable intervals for the contract parameter $v$ are respectively $[0.439, \, 0.640]$ and $[0.312, \, 0.541]$, as showed in *figure 1(B)* and *figure 1(C)*. Within the interval, the profits of the manufacturer and the retailer under the HGRS contract are higher than the profits under the decentralized scenario, providing a strong incentive for the two components to stay collaboration with each other.
+
+<table>
+<tr>
+<td><img src="images/v-ex1.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(A)</p></td>
+<td><img src="images/v-ex2.png" alt="figure 1(B)"><br><p style="text-align: center;">image 1(B)</p></td>
+</tr>
+<tr>
+<td>
+<img src="images/v-ex3.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(C)</p>
+</td>
+</tr>
+</table>
+
+### 2. Sensitivity analyses
+
+
+#### 2.1 Sensitivity analyses of greening cost $h$
+
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
+
+- **Manufacturer's perspective**
+
+Owing to the higher income provided by the HGRS contract, the manufacturer prefers HGRS contract to the decentralized model. From *figure 1(A)*, we observe that the manufacturer's profitability remains constant to changes in $h$, as it selects lower values of $e$ in prevention of additional costs as illustrated by *figure 1(B)*. In contrast, the manufacturer's profitability remains higher than the decentralized model though effected by the decrease on selling price as illustrated by *figure 2(B)*.
+
+- **Retailer's perspective**
+
+Observing *figure 2(A)*, the retailer's profit decreases in all scenarios in react to the increase in $h$. Nevertheless, the profitability of the retailer under the HGRS contract remains higher than other two scenarios, providing a strong incentive for the retailer to stay collaboration with the manufacturer. On the other hand,  the increase of $h$ reduces the value of $p$ in all models in *figure 3(B)*. This seems to be a response from the retailer to attract customers under the decrease of $e$ by the manufacturer in *figure 1(B)*. 
+
+In conclusion, the HGRS contract ends up with s lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market. 
+
+<table>
+<tr>
+<td>
+  <img src="images/h_and_pi_star_m.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
+</td>
+<td>
+  <img src="images/h_and_e.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
+</td>
+</tr>
+<tr>
+<td>
+  <img src="images/h_and_pi_star_r.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 3(A)</p>
+</td>
+<td>
+  <img src="images/h_and_p_star.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 3(B)</p>
+</td>
+</tr>
+</table>
+
 # Conclusion
+
+In this tutorial, we have introduced the Green Supply Chain Coordination Approach, which is a model that balances price and green quality in the presence of consumer environmental awareness. We have also provided a hands-on application of the model by implementing it in Python. The model is able to coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. The HGRS contract ends up with a lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market.
+
+Several managerial implications for the supply chain members exists in this study; the most prominent one must be concerning the balancing the price and green quality of products. The model not only guarentees more profit for both members but also stimulate demand by offering cheaper and greener products over economics of scale.
+
+Regarding potential future research studies, a consideration of problem of asymmetric information sharing would be a good start, where the manufacturer doesn't share the greening costs to the retailer. Also, competition between multiple manufacturers and retailers could be considered in the model, where the manufacturer and retailer are able to choose their partners. Finally, the model could be extended to a multi-period setting, where the manufacturer and retailer are able to make decisions over multiple periods.
