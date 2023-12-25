@@ -123,7 +123,7 @@ The **notation** used in this tutorial is as follows:<br>
 
 The optimal solutions are derived under different scenarios: (1) centralised scenario, (2) decentralised scenario, (3) coordination scenario via contracts. <br>
 
-The **Demand Function** is `D = _a − bp + τe_`
+The **Demand Function** is `D = a − bp + τe`
 
 ### (1) Centralised model
 
@@ -241,7 +241,7 @@ $$
 
 Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income $(1 - v)$, and a portion of share from the greening cost $(1 - \varphi)$. Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income $v$ and a portion of share from the greening cost $\varphi$.
 
-The optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract are obtained by solving the following equations:
+The optimal green quality of product $e^{*}$ and the optimal selling price of product $p^{*}$ under the contract are obtained by solving the following equations:
 
 $$
 \begin{align}
