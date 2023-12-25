@@ -376,7 +376,7 @@ The following table illustrates the lower and upper bounds of the acceptable int
 </table>
 
 
-Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green quality of product $e^*$ and the optimal selling price of product $p^*$ under the contract. Then we can calculate the optimal profit of the manufacturer and the retailer under the contract. The following table illustrates the optimal decision variables and the optimal profit of the manufacturer and the retailer under the HGRS contract in the three examples.
+Applying the chosen $v$ to the HGRS contract, we can obtain the optimal green quality of product $e^{\*}$ and the optimal selling price of product $p^{\*}$ under the contract. Then we can calculate the optimal profit of the manufacturer and the retailer under the contract. The following table illustrates the optimal decision variables and the optimal profit of the manufacturer and the retailer under the HGRS contract in the three examples.
 
 <table>
 <tr>
@@ -509,7 +509,7 @@ In example 2 and 3, the acceptable intervals for the contract parameter $v$ are 
 
 #### 2.1 Sensitivity analyses of greening cost $h$
 
-In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{\*}$, the optimal selling price of product $p^{\*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
 
 - **Manufacturer's perspective**
 
