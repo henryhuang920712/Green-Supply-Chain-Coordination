@@ -290,6 +290,10 @@ v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) <br
 \end{align}
 $$
 
+$$
+v \leq \frac{\left( (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) - (w - c)(a - bp^{d*}_r + τe^{d*}_{m}) - h((e^{d*}_m)^{2} - (e^{d*}_m)^2) + \varphi h (e^{c*}_m)^2 <br> + w_r(a - bp^{c*}_r + τe^{c*}_m) \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{19}
+$$
+
 Similarly, we obtain the valid interval of the application from HGRS in terms of $v$ from the perspective of the retailer as follows:
 
 $$
