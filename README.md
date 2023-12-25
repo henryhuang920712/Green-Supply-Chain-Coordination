@@ -291,7 +291,7 @@ v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ 
 $$ -->
 $$
 \begin{align}
-v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - bp^{c*}_r + τe^{c*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - bp^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{20}\\
+v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ - (w - c)(a - bp^{c*}_r + τe^{c*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - bp^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{20}\\
 \end{align}
 $$
 
