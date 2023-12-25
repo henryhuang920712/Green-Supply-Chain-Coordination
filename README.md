@@ -241,7 +241,7 @@ $$
 
 Note that within the new profit function of manufactureer under the contract, there comes a new wholesale price $w_r$, a portion of share from the sales income $(1 - v)$, and a portion of share from the greening cost $(1 - \varphi)$. Similarly, the new profit function of retailer under the contract includes a portion of share from the sales income $v$ and a portion of share from the greening cost $\varphi$.
 
-The optimal green quality of product $e^{*}$ and the optimal selling price of product $p^{*}$ under the contract are obtained by solving the following equations:
+The optimal green quality of product $e^{*}_{}$ and the optimal selling price of product $p^{*}_{}$ under the contract are obtained by solving the following equations:
 
 $$
 \begin{align}
@@ -257,7 +257,7 @@ p^{HGRS*}_r &= \frac{v(a + τe) + w_rb}{2bv}\\
 \end{align}
 $$
 
-Putting $e^{HGRS*}_{R} = E^{C*}_m$, we obtain
+Putting $e^{HGRS*}_{r} = E^{C*}_m$, we obtain
 
 $$
 \begin{align}
@@ -287,6 +287,11 @@ By computing the inequalities (18), we obtain the valid interval of the applicat
 $$
 \begin{align}
 v \leq \frac{\left( \begin{split} (p^{c*}_r - c)(a - bp^{c*}_r + τe^{c*}_m) \\ - (w - c)(a - bp^{d*}_r + τe^{d*}_{m})\\ - h((e^{d*}_m)^{2} - (e^{d*}_m)^2) + \varphi h (e^{c*}_m)^2\\ + w_r(a - bp^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{19}\\
+\end{align}
+$$
+$$
+\begin{align}
+v \geq \frac{\left( \begin{split} (p^{d*}_r - w)(a - bp^{d*}_r + τe^{d*}_m) \\ + \varphi h (e^{c*}_m)^2 + w_r(a - b^{c*}_r + τe^{c*}_m) \end{split} \right)}{p^{c*}_r(a - bp^{c*}_r + τe^{c*}_m)} \tag{20}\\
 \end{align}
 $$
 
