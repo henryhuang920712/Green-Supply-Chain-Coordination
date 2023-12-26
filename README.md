@@ -269,7 +269,7 @@ Similarly, putting $p^{HGRS*}_{r} = p^{c*}_r$, becomes
 
 $$
 \begin{align}
-w_r(v, \varphi) &= \frac{cvτ^2 - 2ahv((1 - \varphi)}{vτ^2 + 2bh(1 - \varphi)} + \frac{4bhv(1 - \varphi) - τ^2v(1 - v)}{vτ^2 + 2bh(1 -\varphi)} \cdot \left( \frac{2h(a + bc)}{4bh - τ^2} + \frac{τ^2(a - bc)}{4bh - τ^2} \right) \tag{17}\\
+w_r(v, \varphi) &= \frac{cvτ^2 - 2ahv((1 - \varphi)}{vτ^2 + 2bh(1 - \varphi)} + \frac{4bhv(1 - \varphi) - τ^2v(1 - v)}{vτ^2 + 2bh(1 -\varphi)} \cdot \left( \frac{2h(a + bc)+τ^2c}{4bh - τ^2} \right) \tag{17}\\
 \end{align}
 $$
 
