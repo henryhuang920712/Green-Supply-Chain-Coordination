@@ -544,6 +544,96 @@ In conclusion, the HGRS contract ends up with s lower selling price and a higher
 </tr>
 </table>
 
+#### 2.2 Sensitivity analyses of customer environmental awareness $τ$
+
+In this section, we conduct sensitivity analyses with different levels of customer environmental awareness $τ$ to explore the impact of the parameters on the optimal green quality of product $e^{\*}$, the optimal selling price of product $p^{\*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Reflecting the customers' tendency to buy products with higher green quality even at a higher price, the increase of $τ$ leads to the increase of demand in all scenarios from the function $D = a - bp + \tau e$.
+
+- **Manufacturer's perspective**
+
+*Figure 4(A)* and *Figure 4(B)* respectively represent the impact on the increase of CEA level $τ$ to the manufacturer's profit and the green quality of product $e^{\*}$. The product's green quality $e$ increases in all scenarios, as the increase of $τ$ magnifies the influence of $e$ in the demand function. The manufacturer's profit under the HGRS contract as well as the green quality maintained higher than the decentralized scenario, providing a strong incentive for the manufacturer to stay collaboration with the retailer instead of acting independently.
+
+- **Retailer's perspective**
+
+Similarily, *Figure 5(A)* and *Figure 5(B)* respectively represent the impact on the increase of CEA level $τ$ to the retailer's profit and the selling price of product $p^{\*}$. The selling price $p$ under the HGRS contract remains significantly lower than the centralized scenario while the retailer's profit remains the highest among the three scenarios. This not only provides a strong incentive for the retailer to stay collaboration with the manufacturer instead of acting independently, but also stimulates demand by offering cheaper and greener products to a market.
+
+<table>
+<tr>
+<td>
+  <img src="ora_images\CEA_Manufacturer_s Profit.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 4(A)</p>
+</td>
+<td>
+  <img src="ora_images\CEA_Green Equality e.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 4(B)</p>
+</td>
+</tr>
+<tr>
+<td>
+  <img src="ora_images\CEA_Retailer_s Profit.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 5(A)</p>
+</td>
+<td>
+  <img src="ora_images\CEA_Selling Price p.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 5(B)</p>
+</td>
+</tr>
+</table>
+
+#### 2.3 Sensitivity analyses of price sensitivity of demand $b$
+
+In this section, we address the relationship between the fluctuation on prices and cocnsumer demand by conducting sensitivity analyses with different levels of price sensitivity of demand $b$. Observing the role of $b$ in the demand function $D = a - bp + \tau e$ once more, we know that the increase of $b$ magnifies the influence to the demand from a unit increase of $p$.
+
+- **Manufacturer's perspective**
+
+Under the perspective of manufacturer, the increase of $b$ leads to the decrease of the green quality $e$ in the centralized and HGRS scenario, while $e$ under the decentralized scenario remains constant as showend by *Figure 6(B)*. This is because the increase of $b$ magnifies the influence of $p$ in the demand function, making the manufacturer to decrease the green quality $e$ in prevention of additional costs. Similarily, from *Figure 6(A)*, the manufacturer's profit under the HGRS contract maintained higher than the decentralized scenario, providing a strong incentive for the manufacturer to stay collaboration with the retailer instead of acting independently.
+
+- **Retailer's perspective**
+
+On the other hand, the increase of $b$ leads to the decrease of the selling price $p$ in all scenarios as showend by *Figure 7(B)*. This is because the increase of $b$ magnifies the influence of $p$ in the demand function, making the retailer to decrease the selling price $p$ in prevention of additional costs. However, the selling price under the HGRS contract is as low as the decentralized scenario while retailers maintaining higher profit than the centralized scenario as showend by *Figure 7(A)*. This not only provides a strong incentive for the retailer to stay collaboration with the manufacturer instead of acting independently, but also stimulates demand by offering cheaper and greener products to a market.
+
+<table>
+<tr>
+<td>
+  <img src="ora_images\b_Manufacturer_s Profit.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 6(A)</p>
+</td>
+<td>
+  <img src="ora_images\b_Green Equality e.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 6(B)</p>
+</td>
+</tr>
+<tr>
+<td>
+  <img src="ora_images\b_Retailer_s Profit.png" alt="h_and_pi_star_m">
+  <p style="text-algn: center; font-style: italic;">figure 7(A)</p>
+</td>
+<td>
+  <img src="ora_images\b_Selling Price p.png" alt="h_and_e">
+  <p style="text-algn: center; font-style: italic;">figure 7(B)</p>
+</td>
+</tr>
+</table>
+
+#### 2.4 Problem and Discussion
+
+After several attempts to unify the graphical results between the original thesis and our implementation, we found that the graphs from the original thesis are not consistent with our implementation, and also varies from the numerical results provided in the table originally from the thesis. Yet it shows exact correspondance between our graphical results and the numerical results provided in the table. Two examples of above phenomenon are listed below:
+
+- **CEA level with Green Quality $e$**
+
+To address the differences among *Figure 8(A)* *Figure 8(B)*, and the numerical results, we focus on the range of the green quality $e$ when $\tau$ becomes 5 as one of the predefined params in *Example 3*. $e$ from the numerical results of the original thesis are 6.36 / 5.82 / 6.36, while the values from the original graph ranges from 10 to 30 on the y-coordinate.
+
+- **Price Sensitivity with Green Quality $e$**
+
+Another example is the difference between *Figure 9(A)* *Figure 9(B)*, and the numerical results. We focus on the range of the green quality $e$ when $b$ becomes 25 as one of the predefined params in *Example 3*. $e$ from the numerical results of the original thesis are 6.36 / 5.82 / 6.36, while the values from the original graph ranges from 8 to 11 on the y-coordinate. Since the formula of $b$ under the decentralized scenario should be independent from the value of $e$ as shown in formula (7), our graph is more consistent with the numerical results.
+
+| Model Graph | Our Graph | Numerical results |
+| :----------------: | :---------------: | :---------------: |
+|  <img src="ora_images\CEA_e_thesis.png" alt="h_and_pi_star_m">  |  <img src="ora_images\CEA_Green Equality e.png" alt="h_and_pi_star_m">  |  6.36 / 5.82 / 6.36  |
+| *Figure 8(A)* | *Figure 8(B)* | Centralized / Decentrailzed / HGRS contract |
+| <img src="ora_images\b_e_thesis.png" alt="h_and_pi_star_m"> | <img src="ora_images\b_Green Equality e.png" alt="h_and_e"> | 6.36 / 5.82 / 6.36 |
+| *Figure 9(A)* | *Figure 9(B)* | Centralized / Decentrailzed / HGRS contract |
+
+
 # Conclusion
 
 In this tutorial, we have introduced the Green Supply Chain Coordination Approach, which is a model that balances price and green quality in the presence of consumer environmental awareness. We have also provided a hands-on application of the model by implementing it in Python. The model is able to coordinate the supply chain effectively by offering a higher profit for both the manufacturer and the retailer than the decentralized model. The HGRS contract ends up with a lower selling price and a higher green quality than the decentralised model, with further potential in offering less expensive greener products to a market.
