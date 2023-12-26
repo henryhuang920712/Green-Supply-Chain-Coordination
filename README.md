@@ -509,7 +509,7 @@ In example 2 and 3, the acceptable intervals for the contract parameter $v$ are 
 
 #### 2.1 Sensitivity analyses of greening cost $h$
 
-In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{\*}$, the optimal selling price of product $p^{\*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
 
 - **Manufacturer's perspective**
 
