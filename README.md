@@ -494,12 +494,12 @@ In example 2 and 3, the acceptable intervals for the contract parameter $v$ are 
 
 <table>
 <tr>
-<td><img src="images/v-ex1.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(A)</p></td>
-<td><img src="images/v-ex2.png" alt="figure 1(B)"><br><p style="text-align: center;">image 1(B)</p></td>
+<td><img src="ora_images\v_interval_1.jpg" alt="figure 1(A)"><br><p style="text-align: center;">image 1(A)</p></td>
+<td><img src="ora_images\v_interval_2.jpg" alt="figure 1(B)"><br><p style="text-align: center;">image 1(B)</p></td>
 </tr>
 <tr>
 <td>
-<img src="images/v-ex3.png" alt="figure 1(A)"><br><p style="text-align: center;">image 1(C)</p>
+<img src="ora_images\v_interval_3.jpg" alt="figure 1(A)"><br><p style="text-align: center;">image 1(C)</p>
 </td>
 </tr>
 </table>
@@ -509,7 +509,7 @@ In example 2 and 3, the acceptable intervals for the contract parameter $v$ are 
 
 #### 2.1 Sensitivity analyses of greening cost $h$
 
-In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{\*}$, the optimal selling price of product $p^{\*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
+In this section, we conduct sensitivity analyses to explore the impact of the parameters on the optimal green quality of product $e^{*}$, the optimal selling price of product $p^{*}$, as well as the profit owned by the manufacturer and the retailer under the three scenarios. Note that the behavior performed by the parameters in each example is similar, so we only illustrate the sensitivity analyses of the parameters in Example 3.
 
 - **Manufacturer's perspective**
 
@@ -524,21 +524,21 @@ In conclusion, the HGRS contract ends up with s lower selling price and a higher
 <table>
 <tr>
 <td>
-  <img src="images/h_and_pi_star_m.png" alt="h_and_pi_star_m">
+  <img src="ora_images\h_Manufacturer_s Profit.png" alt="h_and_pi_star_m">
   <p style="text-algn: center; font-style: italic;">figure 2(A)</p>
 </td>
 <td>
-  <img src="images/h_and_e.png" alt="h_and_e">
+  <img src="ora_images\h_Green Equality e.png" alt="h_and_e">
   <p style="text-algn: center; font-style: italic;">figure 2(B)</p>
 </td>
 </tr>
 <tr>
 <td>
-  <img src="images/h_and_pi_star_r.png" alt="h_and_pi_star_m">
+  <img src="ora_images\h_Retailer_s Profit.png" alt="h_and_pi_star_m">
   <p style="text-algn: center; font-style: italic;">figure 3(A)</p>
 </td>
 <td>
-  <img src="images/h_and_p_star.png" alt="h_and_e">
+  <img src="ora_images\h_Selling Price p.png" alt="h_and_e">
   <p style="text-algn: center; font-style: italic;">figure 3(B)</p>
 </td>
 </tr>
